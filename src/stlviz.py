@@ -3,7 +3,7 @@ from distutils.version import LooseVersion
 from graphviz import Digraph
 import torch
 from torch.autograd import Variable
-from stlcg import Expression, STL_Formula
+from .stlcg import Expression, STL_Formula
 import IPython
 Node = namedtuple('Node', ('name', 'inputs', 'attr', 'op'))
 
